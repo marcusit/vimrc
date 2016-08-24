@@ -1,4 +1,4 @@
-colorscheme desert
+colorscheme darkblue
 set nocompatible
 set ic
 set number
