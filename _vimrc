@@ -11,6 +11,9 @@ set nobackup
 set nowritebackup
 " Sets tabwidth to 2 spaces
 set shiftwidth=2
+set tabstop=2
+" Enables auto-indent
+set autoindent
 " Shares clipboard with the system
 set clipboard=unnamed
 " Makes line numbering relative to the cursor position
