@@ -36,3 +36,5 @@ map <C-a> <esc>ggVG<CR>
 " Enables syntax highlighting
 filetype plugin on
 syntax on
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
