@@ -36,5 +36,11 @@ map <C-a> <esc>ggVG<CR>
 " Enables syntax highlighting
 filetype plugin on
 syntax on
+" Maps enter to insert a new line
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
+" Removes keymappings for the arrow keys
+map <Up> <>
+map <Down> <>
+map <Left> <>
+map <Right> <> 
