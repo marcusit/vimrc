@@ -12,6 +12,8 @@ set nowritebackup
 " Sets tabwidth to 2 spaces
 set shiftwidth=2
 set tabstop=2
+" Enable the ruler
+set ruler
 " Enables auto-indent
 set autoindent
 " Shares clipboard with the system
@@ -35,6 +37,7 @@ nnoremap <C-n> :call NumberToggle()<cr>
 map <C-a> <esc>ggVG<CR>
 " Enables syntax highlighting
 filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 syntax on
 " Maps enter to insert a new line
 map <Enter> o<ESC>
@@ -44,3 +47,10 @@ map <Up> <>
 map <Down> <>
 map <Left> <>
 map <Right> <> 
+
+" Sets syntax for Cisco config files.
+" http://www.vim.org/scripts/script.php?script_id=4624
+au BufReadPost *.config set syntax=cisco
+
+set swapfile
+set dir=C:\temp
