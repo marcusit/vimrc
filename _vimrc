@@ -6,6 +6,9 @@ set nocompatible
 set ic
 " Enables line numbering
 set number
+" Enable line highlighting
+set cursorline
+set cursorcolumn
 " Removes automatically created backup files
 set nobackup
 set nowritebackup
