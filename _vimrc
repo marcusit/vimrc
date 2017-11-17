@@ -8,7 +8,6 @@ set ic
 set number
 " Enable line highlighting
 set cursorline
-set cursorcolumn
 " Removes automatically created backup files
 set nobackup
 set nowritebackup
@@ -16,6 +15,8 @@ set nowritebackup
 set shiftwidth=2
 set tabstop=2
 set expandtab
+" Enables ruler
+set ruler
 " Enables auto-indent
 set autoindent
 " Shares clipboard with the system
