@@ -50,6 +50,8 @@ map <Up> <>
 map <Down> <>
 map <Left> <>
 map <Right> <> 
+" Fix pasting
+set paste
 
 " Section for Windows only
 " Sets syntax for Cisco config files.
