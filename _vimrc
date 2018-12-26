@@ -2,6 +2,8 @@
 colorscheme elflord
 " Disables compatibility mode
 set nocompatible
+" Highlights search results as typing
+set incsearch
 " Ignore case when searching
 set ic
 " Enables line numbering
