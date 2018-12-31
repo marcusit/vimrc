@@ -52,7 +52,8 @@ map <Up> <>
 map <Down> <>
 map <Left> <>
 map <Right> <> 
-
+" Fix pasting
+set paste
 " Sets syntax for Cisco config files.
 " http://www.vim.org/scripts/script.php?script_id=4624
 au BufReadPost *.config set syntax=cisco
