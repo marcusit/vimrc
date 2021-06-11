@@ -1,2 +1,2 @@
 # vimrc
-Backup of my vimrc file
+Backup of my vimrc file.
